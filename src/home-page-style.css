@@ -127,12 +127,11 @@ section{
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
+  margin-top: 15px;
   background-color: #9B3830;
   text-decoration: none;
 }
-.waaam-media img{
-    border-radius: 10px;
-}
+
 footer {
     text-align: center;
     color: black;

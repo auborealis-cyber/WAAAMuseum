@@ -3,8 +3,6 @@ body{
     background-color: #FDECCE;
 }
 
-
-
 .hero{
     background-color: white;
 }
@@ -72,10 +70,32 @@ body{
   text-decoration: none;
 }
 
+.visit-container{
+    background-color: #e8dedd;
+}
+
+.visit-container .col{
+    border: solid;
+    border-color: #9B3830;
+    border-width: 1.5px;
+    border-radius: 5px;
+}
+
 .embed{
     max-width: 200px;
     max-height: 200px;
     width: 100%;
+}
+
+.fa-brands{
+    font-size: 30px;
+    margin: 15px;
+    color:#9B3830;
+}
+
+.fa-brands:hover{
+    color: blue;
+    font-size: 35px;
 }
 
 @media (max-width:800px){
