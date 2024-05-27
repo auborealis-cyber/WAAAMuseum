@@ -6,22 +6,43 @@ body{
 .hero{
     background-color: white;
 }
+
 .hero .air-beacon{
     float:left;
     margin: 5px 15px;
 }
+
 .hero .car-rides{
     float: right;
     width: 200px;
     height: 150px;
     margin: 5px;
 }
+
 .hero p{
     text-align: left;
-    margin: 5px 15px;
+    margin: 15px;
 }
 
 .hero h2{
+    padding: 10px;
+}
+
+.hero h3{
+    color: #78777d;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.hero img{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.list-group, .tab-content{
     padding: 10px;
 }
 
@@ -37,16 +58,19 @@ body{
     line-height: 1.5;
     margin: 0;
 }
+
 .card strong{
     font-weight: 800;
     font-size: 14px;
 }
+
 .card p{
     font-weight: 300;
     font-size: 13px;
     line-height: 1.5;
     color: #272044;
 }
+
 .card-body {
   padding: 10px 30px 10px 30px;
 }
