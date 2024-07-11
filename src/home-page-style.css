@@ -78,6 +78,7 @@ main p{
     line-height: 24px;
     color: #272044;
     opacity: 0.7;
+    margin-bottom: 0 auto;
 }
 
 section{
@@ -130,6 +131,24 @@ section{
   margin-top: 15px;
   background-color: #9B3830;
   text-decoration: none;
+}
+
+.social-media-icons{
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 0 auto;
+}
+.fa-brands{
+    color:#9B3830;
+}
+.fa-brands:hover{
+    transform: scale(1.1);
+    color: #443776;
+}
+
+.gallery{
+    margin-bottom: 0;
+    padding-bottom: 15px;
 }
 
 footer {
