@@ -59,6 +59,15 @@ body{
 .airplane-list img:hover{
     transform: scale(1.1);
 }
+.airplane-list-by-year{
+    background-color: rgb(250, 220, 182);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.airplane-list-by-year a{
+color: #9B3830;
+}
 
 .card{
     background-color: rgb(255, 255, 255);
