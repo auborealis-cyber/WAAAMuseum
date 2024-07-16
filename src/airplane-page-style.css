@@ -56,6 +56,11 @@ body{
 .airplane-list-by-year a{
 color: #9B3830;
 }
+.airplane-list-by-year h6{
+    text-decoration: underline;
+    color: goldenrod;
+    margin-left: 50px;
+}
 
 @media (max-width:800px){
 .hero{
