@@ -301,9 +301,16 @@ h4{
     line-height: 10px;
     padding: 1px;
 }
-
 }
+
 @media(max-width:650px){
+.secondary .grid-3-col .card {
+    width: 250px;
+}
+.secondary .grid-3-col{
+    position: relative;
+    right: 50px;
+}
 .footer-grid-item-2{
     margin-left: 10px;
 }
