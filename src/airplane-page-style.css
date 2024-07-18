@@ -77,6 +77,12 @@ color: #9B3830;
 .hero{
     height: fit-content;
 }
+.airplane-list-by-year{
+    text-size-adjust:fit-content;
+}
+.airplane-list-by-year a:hover{
+    font-size: 16px;
+}
 }
 @media(min-width:800px){
 .hero p{
