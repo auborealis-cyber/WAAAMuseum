@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     background-color: #FDECCE;
@@ -37,6 +41,15 @@ body{
 .wright-glider{
 text-align: left;
 }
+
+footer{
+    padding: 15px;
+}
+
+footer a{
+    color: #9B3830;
+}
+
 @media (max-width:800px){
 .hero{
     height: fit-content;
