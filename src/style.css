@@ -3,6 +3,10 @@ body{
     background-color: #FDECCE;
 }
 
+ a{
+    color: #9B3830;
+}
+
 .hero{
     background-color: white;
 }
@@ -70,7 +74,7 @@ body{
 
 .card p{
     font-weight: 300;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.5;
     color: #272044;
 }
@@ -143,9 +147,57 @@ body{
     color: #9B3830;
 }
 
+.membership-benefits{
+    border: 5px solid #9B3830;
+}
+
+.membership-benefits h3{
+    text-decoration: underline;
+}
+
+.membership-benefits p{
+    text-align: center;
+}
+
+.membership-benefits li{
+    list-style: none;
+    text-align: center;
+}
+
+.membership-details {
+    text-align: center;
+}
+
+.membership-details .btn {
+    white-space: nowrap;
+    display: inline-block;
+    padding: 20px;
+}
+
+.business-membership{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding:20px;
+}
+
+.business-membership h2{
+    text-decoration: underline;
+}
+
 @media (max-width:800px){
 .hero{
     height: fit-content;
+}
+.membership-benefits{
+    border: 3px solid #9B3830;
+    margin: 5px;
+}
+.membership-benefits li{
+    list-style: circle;
+    text-align: left;
+}
+img{
+    width: 100%;
 }
 }
 @media(min-width:800px){
@@ -154,5 +206,9 @@ body{
     }
 .hero p{
     padding: 3px;
+}
+.membership-benefits{
+    border: 5px solid #9B3830;
+    margin: 10px 300px 10px 350px;
 }
 }

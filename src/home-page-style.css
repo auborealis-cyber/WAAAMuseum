@@ -114,6 +114,10 @@ section{
   padding: 10px 30px 10px 30px;
 }
 
+.card-body a{
+    font-size: 15px;
+}
+
 .card-footer {
   padding: 0 30px 30px;
 }
