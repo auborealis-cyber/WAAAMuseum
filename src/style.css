@@ -126,6 +126,23 @@ body{
     font-size: 35px;
 }
 
+.full-calendar p{
+    text-align: center;
+}
+
+.calendar-past{
+    color: #78777d;
+    text-decoration: line-through;
+}
+
+.calendar-past a{
+    color: #78777d;
+}
+
+.calendar a{
+    color: #9B3830;
+}
+
 @media (max-width:800px){
 .hero{
     height: fit-content;
