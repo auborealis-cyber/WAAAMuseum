@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAAAM-ily - Western Aeroplane & Automobile Museum</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/a5a2918127.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="container">
+      <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"><img src="img/waaam-logo-copy.jpg" alt="WAAAM-logo" width="65" height="24"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/visit.html">Visit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/give.html">Give</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Collections
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/collection-airplanes.html">Airplanes</a></li>
+            <li><a class="dropdown-item" href="/collection-automobiles.html">Automobiles</a></li>
+            <li><a class="dropdown-item" href="#">Motorcycles</a></li>
+            <li><a class="dropdown-item" href="#">Gliders</a></li>
+            <li><a class="dropdown-item" href="#">Tractors</a></li>
+            <li><a class="dropdown-item" href="#">Military</a></li>
+            <li><a class="dropdown-item" href="#">Other Vehicles</a></li>
+            <li><a class="dropdown-item" href="#">Our Stories</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/events.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Events
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/second-saturday.html">Second Saturday</a></li>
+            <li><a class="dropdown-item" href="#">Traffic Jam</a></li>
+            <li><a class="dropdown-item" href="#">Fly-in</a></li>
+            <li><a class="dropdown-item" href="/full-calendar.html">Full Calendar</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/education.html">Education</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Get Involved
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Volunteer</a></li>
+            <li><a class="dropdown-item" href="/membership.html">Membership</a></li>
+            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/about.html">Our Museum</a></li>
+            <li><a class="dropdown-item active" href="/waaamily.html">The WAAAM-ily</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Media
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">News</a></li>
+            <li><a class="dropdown-item" href="#">Videos</a></li>
+            <li><a class="dropdown-item" href="#">Photos</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.waaamuseum.org/images/pdfs/WAAAM_Gift_Shop_v3.pdf" target="_blank">Shop</a>
+        </li>
+      </ul>
+    </div>
+  </div> 
+  </nav>   
+  <main>
+<div class="hero text-center">
+    <h1>Our WAAAM-ily</h1>
+    <p>So many  people make WAAAM such a special place and some make it a possibility.  Thank you to everyone who contributes to making WAAAM such a great place.</p>
+    <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active list-group-item-danger" id="list-terrybrandt-list" data-bs-toggle="list" href="#list-terrybrandt" role="tab" aria-controls="list-terrybrandt"> Our Founder</a>
+            <a class="list-group-item list-group-item-action list-group-item-danger" id="list-board-directors-list" data-bs-toggle="list" href="#list-board-directors" role="tab" aria-controls="list-board-directors"> Board of Directors</a>
+            <a class="list-group-item list-group-item-action list-group-item-danger" id="list-founding-members-list" data-bs-toggle="list" href="#list-founding-members" role="tab" aria-controls="list-founding-members"> Founding Members</a>
+            <a class="list-group-item list-group-item-action list-group-item-danger" id="list-aircraft-donors-list" data-bs-toggle="list" href="#list-aircraft-donors" role="tab" aria-controls="list-aircraft-donors"> Aircraft Donors</a>
+            <a class="list-group-item list-group-item-action list-group-item-danger" id="list-automobile-donors-list" data-bs-toggle="list" href="#list-automobile-donors" role="tab" aria-controls="list-automobile-donors"> Automobile Donors</a>
+        </div>
+    </div>
+    <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-terrybrandt" role="tabpanel" aria-labelledby="list-terrybrandt-list">
+        <h3>Our Founder</h3>
+            <p>Our founder and president, Terry Brandt, started his love of flying at a very early age.</p>
+            <p>Terry's mother and father served as the FBO (fixed base operator) at the airport in Marysville, California, and also ran a flight school there for a number of years. Terry's father also built between 200 and 300 crop dusters, and was particularly fond of soaring in gliders.</p>
+            <p>Given the environment he grew up in, it didn't seem strange to anyone at the time that Terry learned to fly when he was only 12 years old.&nbsp; Nor did it seem strange that he bought his first airplane at the age of 19 — a 1938 J-3 Cub. Ever since then, he's been an avid collector and aviation enthusiast.</p>
+            <h4>He Donated His Collection</h4>
+            <p>Terry continued to collect antique aircraft and memorabilia over the last 50 years, and in 2006 he decided he would have to make one of two choices — either he would have to have a very large auction, or he would have to find a way to ensure his collection would survive by building a museum.</p>
+            <p>Fortunately for all of us, he chose the latter, and donated his collection to the museum.</p>
+            <p>Now, in just a few short years, many more aircraft have been added to the museum, and the collection of antique automobiles is now equally as impressive as the collection of antique planes.</p>
+            <h4>Terry's Hopes for the Future</h4>
+            <p>Terry now resides in Hood River, Oregon with his wife Lois. He remains extremely active in the business of running the museum and he still enjoys flying.</p>
+            <p>Terry hopes that others who have antique aircraft and automobiles will find that WAAAM is a safe haven to both preserve them and show them off.</p>
+            <img style="width: 100%;" src="./img/WAAAM_Founder_Terry_Brandt.png" alt="Western Antique Aeroplane & Automobile Museum Founder Terry Brandt standing in front of a Curtis Jenny aeroplane">
+      </div>
+    <div class="tab-pane fade" id="list-board-directors" role="tabpanel" aria-labelledby="list-board-directors-list">
+        <h3>Board of Directors </h3>
+        <p>Thank you so much to our Board of Directors who work and volunteer tirelessly to make WAAAM great</p>
+        <ul>
+            <li>Terry Brandt</li>
+            <li>Warren Bean</li>
+            <li>John Benton</li>
+            <li>Bill Bremmeyer</li>
+            <li>Don Mayo</li>
+            <li>Bryan Reid</li>
+            <li>Jerry Wenger</li>
+            <li>Addison Pemberton</li>
+            <li>Ron Wade</li>
+            <li>Judy Newman</li>
+        </ul>
+        </div>
+    <div class="tab-pane fade" id="list-founding-members" role="tabpanel" aria-labelledby="list-founding-members-list">
+        <h3>Founding Members</h3>
+        <p><strong>Founding Members, Thank you for your generous support.</strong></p>
+        <p>Thanks to all of the individuals, families, and businesses who have given so generously to make the Western Antique Aeroplane and Automobile Museum (WAAAM) a place for all to enjoy.</p>
+        <p>Without the following people and corporations, WAAAM would not be possible and would not be able to contribute the education, culture, and community pride of people who call the Columbia River Gorge home.</p>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <h5>Founding Aviators</h5>
+                <p>John & Julie Benton</p>
+                <p>Steve & Mary Sue Benton</p>
+                <p>The Alldredge Family</p>
+                <p>Michael & Sandra Fritz</p>
+                <p>RE Hyde Families</p>
+                <p>Charles & Katie Miller</p>
+                <p>Greg & Becky Sandercook</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Founding Benefactors</h5>
+                <p>William A. Cutright</p>
+                <p>Chuck Johnisee</p>
+                <p>Bryan & Tabby Reid</p>
+                <p>Steve & Becky Vaught</p>
+                <p>David & Marci Walsh</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Founding Corporations</h5>
+                <p>Bremmeyer Logging Company</p>
+                <p>Cloud Cap Technology</p>
+                <p>Columbia Helicopters</p>
+                <p>Don Nunamaker, Realtors</p>
+                <p>Hood River Distillers</p>
+                <p>JL Aviation</p>
+                <p>Nostalgaire Inc.</p>
+                <p>Orchard Machinery Corporation</p>
+                <p>Pheasant Valley Winery</p>
+                <p>Professional Cylinder Inspectors</p>
+                <p>Ray Schultens Motors</p>
+                <p>RM Auctions</p>
+                <p>Tallman Ladders</p>
+                <p>United Way of the Columbia Gorge</p>
+                <p>Wal-Mart Corporations</p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5>Founding Members</h5>
+            		<ul>
+                    <li>Alan and Jean Anderson</li>
+                    <li>Al Ball</li>
+                    <li>Bradley Ball</li>
+                    <li>Lee and Lorraine Borchers</li>
+                    <li>Alan Brandt</li>
+                    <li>Brian and Lainey Brandt</li>
+                    <li>Frank and Claudia Chaney</li>
+                    <li>Bruce and Beverly Dallas</li>
+                    <li>Ben and Donna Davidson</li>
+                    <li>Joseph Deem</li>
+                    <li>David and Marilyn Elkins</li>
+                    <li>Aron Faegre</li>
+                    <li>Darryl and Carol Fisher</li>
+                    <li>Sheryl Forrest</li>
+                    <li>Chester and Peg Fritz</li>
+                    <li>Ron and Miki Fuller</li>
+                    <li>Larry George</li>
+                    <li>John and Julie Gillett</li>
+                    <li>Melvyn and Jane Hulzman</li>
+                    <li>Robert and Joanne Kembel</li>
+                    <li>William and Margaret Kennedy</li>
+                    <li>Jaffra Masad</li>
+                    <li>Brandon and Jo Masterson</li>
+                    <li>Carol McInnes</li>
+                    <li>Thomas and Joyce Murphy</li>
+                    <li>Judith Newman</li>
+                    <li>Betty and Russ Paddock</li>
+                    <li>Roy and Pat Pettit</li>
+                    <li>Bob and Leslie Tallman</li>
+                    <li>Joe and Pat Titus</li>
+                    <li>Matt and Cheryl Titus</li>
+                    <li>Felix and Jean Tomlinson</li>
+                    <li>Cye and Joy Vaughan</li>
+                    <li>Floyd and Laura Vaughan</li>
+                    <li>Bill and Becky Veatch</li>
+                    <li>Patrick Warren</li>
+                    <li>Bud and Gladys Weisbrod</li>
+                    <li>Jeremy and Kara Young</li>
+                    <li>Robert Zedekar</li>
+                    <li>Bill and Vicki Zurcher</li>
+                    </ul>
+            </div>
+        </div>
+        </div>
+    <div class="tab-pane fade" id="list-aircraft-donors" role="tabpanel" aria-labelledby="list-aircraft-donors-list">
+        <h3>Aircraft Donors</h3>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <ul>
+        <li>Charles and Marge Babcock</li>
+        <li>Bradley Ball</li>
+        <li>Warren Bean</li>
+        <li>Robert Blanchard</li>
+        <li>Walter Bowe and Carlene Mendieta</li>
+        <li>Terry R. Brandt</li>
+        <li>Larry and Beverly Brinkley</li>
+        <li>Scott Carter</li>
+        <li>John and Laura Cheney</li>
+        <li>Dama Curtright</li>
+        <li>Columbia Helicopter</li>
+        <li>David Clark</li>
+        <li>Hap Clarke</li>
+        <li>Brian Coughlin</li>
+        <li>Don Culver</li>
+        <li>Ben and Donna Davidson</li>
+        <li>Brandon Dewey</li>
+        <li>Michael Dillard</li>
+        <li>Wayne Edsall</li>
+        <li>Jack Fee</li>
+        <li>Byron Garoutee</li>
+        </ul>
+            </div>
+        <div class="col-md-4 col-sm-12">
+            <ul>
+                <li>John Gerike</li>
+        <li>William Green</li>
+        <li>Wayne Greenleaf</li>
+        <li>Sam Grotte</li>
+        <li>Robert Hammond</li>
+        <li>Sterling and Kathleen Hanel</li>
+        <li>Kerry Haas</li>
+        <li>Phillis Jarrell</li>
+        <li>Phil and Judy Jensen</li>
+        <li>Ross Johnson</li>
+        <li>Jack Kahle</li>
+        <li>Dorothy Klemmedson</li>
+        <li>Peter and Joanie Lafferty</li>
+        <li>Francie and Jeff LaMarche</li>
+        <li>Michele Lambert</li>
+        <li>Wes and Nancy Lematta</li>
+        <li>Gary A. Lintner</li>
+        <li>Dick and Joan Johnson</li>
+        <li>John and Evelyn Lorence</li>
+        <li>Rick Martin</li>
+        <li>Don Mayo</li>
+        <li>Alan and Patricia McIntyre</li>
+        <li>Tom and Sue McMahon</li>
+        <li>Ted Millar</li>
+        <li>Frederick Moore</li>
+        <li>Judy Newman</li>
+            </ul>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <ul>
+                <li>North Cascades Vintage Aircraft Museum</li>
+        <li>Hilary Peck</li>
+        <li>Addison Pemberton</li>
+        <li>Richard Pingrey</li>
+        <li>Eleanor Provost</li>
+        <li>Eric Rembas</li>
+        <li>Louis Revisky</li>
+        <li>Aaron Rich</li>
+        <li>Sam and Alison Richardson</li>
+                <li>Ty Ross</li>
+        <li>Charles Rushford</li>
+        <li>Serendipity Soaring</li>
+        <li>Leonard Sharpe</li>
+        <li>Shearer Sprayers</li>
+        <li>William Sjoberg</li>
+        <li>Shirley Smith</li>
+        <li>Tim Smith</li>
+        <li>Spirit of Flight Center</li>
+        <li>James Sterrenberg</li>
+        <li>Mike and Linda Strong</li>
+        <li>Larry Tobin</li>
+        <li>Neil and Velma VanAelst</li>
+        <li>Kim Vermilya</li>
+        <li>Andy and Lucia von Flowtow</li>
+        <li>Tuck Wilson and Family</li>
+        <li>Dale Weir</li>
+        <li>Ted Weisgram</li>
+        <li>Jerry and Sonja Wenger</li>
+        <li>Christopher and Woodson Woods</li>
+        </ul>
+        </div>
+        </div>
+        
+        </div>
+    <div class="tab-pane fade" id="list-automobile-donors" role="tabpanel" aria-labelledby="list-automobile-donors-list">
+        <h3>Automobile Donors</h3>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <ul>
+                <li>Frank Alberti</li>
+<li>Alpenrose Dairy</li>
+<li>Andy and Jean Anderson</li>
+<li>Janet Andrews</li>
+<li>Mike Biegalke</li>
+<li>Chuck & Marge Babcock</li>
+<li>Howard Bacon</li>
+<li>Kenneth Bates</li>
+<li>Warren Bean</li>
+<li>Susan & Alan Bell</li>
+<li>Julie & John Benton</li>
+<li>Mary Sue Benton</li>
+<li>Charles Bernard</li>
+<li>Gary & Petra Biddle</li>
+<li>Gordon Boorse</li>
+<li>Burr Boutwell</li>
+<li>John Bowles</li>
+<li>Lois Bowman</li>
+<li>Brian Brandt</li>
+<li>Terry R. Brandt</li>
+<li>Mike & Pam Burback</li>
+<li>Melissa Burgess</li>
+<li>Sheryl Carey</li>
+<li>Scott Clark</li>
+<li>Bill and Mina Clough</li>
+<li>D & L Foundary</li>
+<li>Marjorie Daley</li>
+<li>Bruce & Bev Dallas</li>
+<li>Doris Dehart</li>
+<li>Skip & Hedy Dunn</li>
+<li>Joan Durgin</li>
+</ul>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <ul>
+                    <li>Dave Elkins</li>
+<li>Albert Elton</li>
+<li>Thomas Engel</li>
+<li>Louisa Evans</li>
+<li>James & Caroline Ferris</li>
+<li>John & Janice Fiedler</li>
+<li>The Walt & June Ford Family</li>
+<li>Mike & Sandra Fritz</li>
+<li>Bonnie Gallagher</li>
+<li>Mike Gaulke</li>
+<li>Allan Grant</li>
+<li>Bob & Fran Greenlee</li>
+<li>Mike Grey</li>
+<li>William Hagadorn</li>
+<li>Donna Harlan</li>
+<li>Sandra Harris</li>
+<li>Arthur & Patrica Henderson</li>
+<li>Eric Heublein</li>
+<li>Larry Howard</li>
+<li>Camille Hukari</li>
+<li>Larry Hull</li>
+<li>Gary & Sally Jenkins</li>
+<li>Phil & Judy Jensen</li>
+<li>Duncan Johnson</li>
+<li>Bob & Allyson Kavner</li>
+<li>Gary & Linda Kessimakis</li>
+<li>Art & Betsy Knowles</li>
+<li>Paul & Judy Kuter</li>
+<li>James Landgraf</li>
+<li>Bill Leeper</li>
+<li>Wes & Nancy Lematta</li>
+<li>John & Evelyn Lorence</li>
+<li>Cliff Mansfield</li>
+<li>Michael Maurer</li>
+<li>Don Mayo</li>
+<li>Craig McMillan</li>
+<li>Craig Mendenhall</li>
+<li>Kate Mills</li>
+<li>Ron and Linda Moon</li>
+<li>Cathie Moravec</li>
+<li>North Cascades Vintage Aircraft Museum</li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <ul>
+<li>Orchard Land Company</li>
+<li>Steven & Helen Pomerleau</li>
+<li>Jim & Mary Ann Powell</li>
+<li>Dale Price</li>
+<li>Don Richards</li>
+<li>Jim Rohlfing</li>
+<li>Mike & Stormy Sager</li>
+<li>Ann Schwebke</li>
+<li>Joseph Sowers, Jr.</li>
+<li>Kathy Spainhower</li>
+<li>Ray & Deborah Splinter</li>
+<li>John Stanley</li>
+<li>Rees Stevenson</li>
+<li>Wayne & Kathy Stone</li>
+<li>Mike & Linda Strong</li>
+<li>Michael Sullivan</li>
+<li>Ron Wade</li>
+<li>Don & Joni Walker</li>
+<li>Patrick Warren</li>
+<li>Ralph Weaver &amp; Paula Sandirk</li>
+<li>Audry Weed</li>
+<li>Bruce & Barbara Weir</li>
+<li>Robert Weisman</li>
+<li>Michael Willastone</li>
+<li>Phil & Bev Williams</li>
+<li>Miles Wilson</li>
+<li>Ernest & Tillie Wolf</li>
+<li>Jack & Joyce Woolf</li>
+<li>World of Speed</li>
+<li>Gene & Bonnie Wright</li>
+<li>Beth Zetter</li>
+<li>People like you via admission fees, memberships and participating in WAAAM classes!</li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+  </main>
+</body>
+</html>
