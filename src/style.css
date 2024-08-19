@@ -184,6 +184,15 @@ body{
     text-decoration: underline;
 }
 
+.traffic-jam-sponsors p{
+    text-align: center;
+    display: inline-block;
+}
+
+.vintage-auto{
+    background-color: #F6F0DF;
+}
+
 @media (max-width:800px){
 .hero{
     height: fit-content;
