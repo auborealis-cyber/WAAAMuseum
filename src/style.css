@@ -3,6 +3,12 @@ body{
     background-color: #FDECCE;
 }
 
+.navbar-brand{
+    width: 65px;
+    height:24;
+    display: inline-block;
+}
+
  a{
     color: #9B3830;
 }
