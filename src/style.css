@@ -208,6 +208,9 @@ body{
 img{
     width: 100%;
 }
+.hero img{
+    float: none;
+}
 }
 @media(min-width:800px){
     .hero .car-rides{
@@ -219,5 +222,8 @@ img{
 .membership-benefits{
     border: 5px solid #9B3830;
     margin: 10px 300px 10px 350px;
+}
+ul{
+    margin: 10px;
 }
 }
