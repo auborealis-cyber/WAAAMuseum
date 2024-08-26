@@ -9,6 +9,11 @@ body{
     display: inline-block;
 }
 
+.dropdown-item.active {
+  background-color:#9B3830; 
+  color: white; 
+}
+
  a{
     color: #9B3830;
 }
@@ -197,6 +202,11 @@ body{
 
 .vintage-auto{
     background-color: #F6F0DF;
+}
+
+.staff-contact-info{
+    background-color: rgb(255, 251, 247);
+    font-size: 18px;
 }
 
 @media (max-width:800px){

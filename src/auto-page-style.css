@@ -3,6 +3,11 @@ body{
     background-color: #FDECCE;
 }
 
+.dropdown-item.active {
+  background-color:#9B3830; 
+  color: white; 
+}
+
 .hero{
     background-color: white;
 }
