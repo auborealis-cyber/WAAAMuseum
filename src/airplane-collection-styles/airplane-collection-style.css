@@ -13,7 +13,7 @@ body{
 }
 
 .hero{
-    background-color: white;
+    background-color: rgb(247, 239, 239);
 }
 
 .hero h1{
@@ -63,5 +63,8 @@ footer a{
 @media(min-width:800px){
 .hero p{
     padding: 3px;
+}
+.list-group{
+    margin: 10px;
 }
 }
