@@ -78,6 +78,17 @@ color: #9B3830;
     margin-left: 50px;
 }
 
+footer a{
+    color: #9B3830;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer a:hover{
+    color: rgb(189, 135, 0);
+    font-size: larger;
+}
+
 @media (max-width:800px){
 .hero{
     height: fit-content;
