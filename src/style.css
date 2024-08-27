@@ -209,6 +209,11 @@ body{
     font-size: 18px;
 }
 
+.waco-side-by-side{
+    width: 30%;
+    position: relative;
+}
+
 @media (max-width:800px){
 .hero{
     height: fit-content;
@@ -241,5 +246,14 @@ img{
 }
 ul{
     margin: 10px;
+}
+.waco-uba-flying{
+    width: 50%;
+}
+.waco-uba-flight-path{
+    width: 40%;
+}
+.waco-uba-annual{
+    width:20%;
 }
 }
