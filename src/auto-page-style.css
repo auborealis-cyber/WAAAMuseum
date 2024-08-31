@@ -56,3 +56,8 @@ body{
 .automobile-list-by-year a{
 color: #9B3830;
 }
+
+.tab-content img{
+    float: left;
+    margin: 5px 10px;
+}

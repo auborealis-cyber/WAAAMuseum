@@ -38,7 +38,7 @@ button a{
 
 button a:hover{
     text-decoration: underline;
-    color: navy;
+    color: #9B3830;
 }
 
 .hero h1{
