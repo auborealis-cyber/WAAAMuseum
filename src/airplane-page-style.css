@@ -78,6 +78,11 @@ color: #9B3830;
     margin-left: 50px;
 }
 
+.tab-content img{
+    float: left;
+    margin: 5px 10px;
+}
+
 footer a{
     color: #9B3830;
     padding: 20px;
