@@ -65,6 +65,10 @@ body{
 .airplane-list-by-year img:hover{
     transform: scale(1.15);
 }
+.airplane-list-by-year{
+    margin: 5px 10px 5px 10px;
+    float: left;
+}
 .airplane-list-by-year a{
 color: #9B3830;
 }
